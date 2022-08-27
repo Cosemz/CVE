@@ -4,7 +4,8 @@
 #### Version：Doctor Appointment System 1.0
 #### Google Dork: N/A
 #### Date: 26/08/2022
-#### Software Link: `https://github.com/divScorp/Doctor-Appointment`
+#### Tested on：Apache2.4.39，Mysql5.7.26，PHP5.5.9
+#### Software Link: https://github.com/divScorp/Doctor-Appointment
 
 #### Description：Doctor Appointment System contain arbitrary file upload.Registered user can upload info.php files in attachments section with use of intercept tool in Burp Suite to edit the raw.
   
