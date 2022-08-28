@@ -51,7 +51,7 @@ http://127.0.0.1/Flipkart-Clone-PHP-main/entry.php
 
 
 
-2.Submit payload using burp suite to get database name and current user.
+2.Submit payload using Burp suite to get database name and current user.
 
 ```
 POST /Flipkart-Clone-PHP-main/entry.php HTTP/1.1
