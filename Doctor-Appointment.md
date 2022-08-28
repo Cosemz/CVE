@@ -3,7 +3,7 @@
 #### Exploit Title: Doctor Appointment System 1.0 - Arbitrary File Upload  
 #### Version：Doctor Appointment System 1.0
 #### Google Dork: N/A
-#### Date: 26/08/2022
+#### Date: 08/26//2022
 #### Tested on：Apache2.4.39，Mysql5.7.26，PHP5.5.9
 #### Software Link: https://github.com/divScorp/Doctor-Appointment
 
