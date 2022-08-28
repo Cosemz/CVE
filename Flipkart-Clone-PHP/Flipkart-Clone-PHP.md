@@ -7,10 +7,7 @@
 #### Version: 1.0
 #### Tested on: Apache2.4.39 Mysql5.7.26 PHP7.3.4
 #### Description：
-*SQL injection is a code injection technique used to attack
-data-driven applications, in which malicious SQL statements are
-inserted into an entry field for execution (e.g. to dump the database
-contents to the attacker). wikipedia*
+In the entry.php file, the POST parameters product_title are insufficiently checked and sanitized. An attacker can use these parameters to send payloads for sql injections.
 
 Vulnerability File: /Flipkart-Clone-PHP-main/entry.php
 
