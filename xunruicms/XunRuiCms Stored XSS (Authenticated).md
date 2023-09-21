@@ -32,7 +32,14 @@ is_form=1&is_admin=1&is_tips=&csrf_test_name=ce1a1cdb6e1e2870bc90e07fb0d624e2&pa
 1、Log in to the management backend
 
 2、
-Find the project settings and edit the project name, write in <img src=http://127.0.0.1:8000/info.html> or <img src=x onerror=alert(/xss/)>.
+Find the project settings and edit the project name, write in 
+```
+<img src=http://127.0.0.1:8000/info.html>
+```
+or 
+```
+<img src=x onerror=alert(/xss/)>
+```
 ![2.png](./2.PNG)
 
 
